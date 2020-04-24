@@ -92,7 +92,7 @@ SELECT k, v FROM lookup.countries
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 Lookup datasources correspond to Druid's key-value [lookup](lookups.html) objects. In [Druid SQL](sql.html#from),
-they reside in the the `lookup` schema. They are preloaded in memory on all servers, so they can be accessed rapidly.
+they reside in the `lookup` schema. They are preloaded in memory on all servers, so they can be accessed rapidly.
 They can be joined onto regular tables using the [join operator](#join).
 
 Lookup datasources are key-value oriented and always have exactly two columns: `k` (the key) and `v` (the value), and
